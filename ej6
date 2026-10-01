@@ -1,0 +1,7 @@
+
+variable1 = input("dime una palabra: ")
+variable2 = input("dime otra palabra: ")
+variable3 = input("dime otra palabra: ")
+variable4 = input("dime otra palabra: ")
+variable5 = input("dime otra palabra: ")
+print( variable5 + variable4 + variable3 + variable2 + variable1) 
