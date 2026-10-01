@@ -1,0 +1,6 @@
+#11. Realiza un programa que introduciendo el valor del lado de un cuadrado nos devuelva por pantalla en el área y el perímetro.
+lado1 = int(input("dime las medidas de un lado del cuadrado: "))
+area = lado1*lado1
+perimetro = lado1*4
+print(f"el area de cuadrado es {area}")
+print(f"el perimetro es {perimetro}")
