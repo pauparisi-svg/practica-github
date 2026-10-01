@@ -1,0 +1,8 @@
+#15. Utiliza el valor Pi de la librería math para calcular el área y volumen de un cilindro, introduciendo por teclado el valor de radio y altura. Resultado con 2 decimales.
+radio = int(input(" dime el radio de tu cilindro: "))
+altura = int(input(" dime la altura de tu cilindro: "))
+import math
+arealateral = round(2*math.pi*radio*(radio+altura),2)
+volumen = round(math.pi*(radio**2)*altura,2) 
+print(f"el area lateral del cilindro es: {arealateral}")
+print(f"el volumen del cilindro es: {volumen}")
