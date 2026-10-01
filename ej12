@@ -1,0 +1,9 @@
+#12. Realiza un programa que, introduciendo en los valores de lado, base menor, base mayor y altura de un trapecio isósceles, nos devuelva por pantalla en el área y el perímetro.
+lado = int(input("dime cuanto mide el lado de trapecio: "))
+basemenor = int(input("dime cuanto mide la base menor del trapecio: "))
+basemayor = int(input("dime cuanto mide la base mayor del trapecio: "))
+altura = int(input("dime cuanto mide la altura del trapecio: "))
+perimetro = basemenor + basemayor * (lado*2)
+area = (( basemayor + basemenor)*altura)/2
+print(f"el area del trapecio es: {area}")
+print (f"el perimetro del trapecio es: {perimetro}")
