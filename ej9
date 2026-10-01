@@ -1,0 +1,3 @@
+#9. programa que pida los segundos y muestre por pantalla y en la misma frase los minutos y las horas
+variable1 = int(input("dime el numero de segundos: "))
+print(f"el numero de horas es {round(variable1/3600,2)} y el numero de minutos es de {round (variable1/60,2)}")
