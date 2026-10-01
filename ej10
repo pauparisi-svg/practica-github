@@ -1,0 +1,10 @@
+#10. Introduce por teclado dos números y muestre por pantalla la siguiente información: cociente, resto y si el dividendo es par o impar.
+variable1 = int(input("dime un numero: "))
+variable2 = int(input("dime otro numero: "))        
+cociente = round(variable1/variable2,2)
+resto = variable1%variable2
+if variable1 % 2 == 0:
+    print(f"el cociente es {cociente} , el resto es {resto} y el dividendo es par") 
+else:
+    print(f"el cociente es {cociente} , el resto es {resto} y el dividendo es impar")
+
