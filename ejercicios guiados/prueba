@@ -4,6 +4,4 @@ grados = float(input("introduce los grados: "))
 farenheid = round(grados*9/5+32,2)
 print(f"temperatura: {farenheid} F")
 """ round(calculo,2) redondea el resultado a 2 decimales
-print(f"temperatura: {grados:.2f} C")
-Una tienda aplica un 10% de descuento a un prodcucto y después añdade un 21% de iva"""
-
+print(f"temperatura: {grados:.2f} C")"""
