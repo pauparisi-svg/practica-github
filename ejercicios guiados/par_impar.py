@@ -1,0 +1,5 @@
+#PARA SABER SI ES PAR O IMAPAR HAY QUE HACER % DE 2, YA QUE DA EL RESTO DE LA DIVISION
+var1 = 5%2
+var2 = 8%2
+print(var1)
+print (var2)
