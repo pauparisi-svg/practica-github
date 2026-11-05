@@ -8,6 +8,7 @@ print(longitud)
    2. dos metodos que incluyen la libreria math
    3. practicar los dos prints
 PRIMER METODO DE REDONDEO"""
+
 radio = float(input("introduce el radio: "))
 area = math.pi*radio**2
 longitud = 2*math.pi*radio
